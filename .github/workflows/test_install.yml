@@ -24,6 +24,9 @@ on:
   workflow_run:
     workflows: ["Publish Package"]
     types: [completed]
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '30 90 * * 2
 
 # Workflow jobs:
 jobs:
