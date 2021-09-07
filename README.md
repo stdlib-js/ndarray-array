@@ -255,6 +255,20 @@ str = JSON.stringify( arr.toJSON() );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/ndarray/ctor`][@stdlib/ndarray/ctor]</span><span class="delimiter">: </span><span class="description">multidimensional array constructor.</span>
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
@@ -314,13 +328,17 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/ndarray-dtypes
 
-[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor
-
 [@stdlib/array/generic]: https://github.com/stdlib-js/array-generic
 
 [@stdlib/array/typed]: https://github.com/stdlib-js/array-typed
 
 [@stdlib/buffer/ctor]: https://github.com/stdlib-js/buffer-ctor
+
+<!-- <related-links> -->
+
+[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor
+
+<!-- </related-links> -->
 
 </section>
 
