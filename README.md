@@ -34,30 +34,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/ndarray-array
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var array = require( '@stdlib/ndarray-array' );
+array = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@umd/bundle.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@umd/bundle.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.array;
+})();
+</script>
 ```
 
 <a name="main"></a>
@@ -224,8 +226,13 @@ var bool = ( v === buf[ 0 ] );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var array = require( '@stdlib/ndarray-array' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@umd/bundle.js"></script>
+<script type="text/javascript">
+(function () {
 
 // Create a 4-dimensional array containing single-precision floating-point numbers:
 var arr = array({
@@ -251,6 +258,11 @@ var str = arr.toString();
 // Serialize the array as JSON:
 str = JSON.stringify( arr.toJSON() );
 // returns '{"type":"ndarray","dtype":"float32","flags":{},"order":"row-major","shape":[3,3,3,3],"strides":[27,9,3,1],"data":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -348,17 +360,17 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-array/main/LICENSE
 
-[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/ndarray-dtypes
+[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/ndarray-dtypes/tree/umd
 
-[@stdlib/array/generic]: https://github.com/stdlib-js/array-generic
+[@stdlib/array/generic]: https://github.com/stdlib-js/array-generic/tree/umd
 
-[@stdlib/array/typed]: https://github.com/stdlib-js/array-typed
+[@stdlib/array/typed]: https://github.com/stdlib-js/array-typed/tree/umd
 
-[@stdlib/buffer/ctor]: https://github.com/stdlib-js/buffer-ctor
+[@stdlib/buffer/ctor]: https://github.com/stdlib-js/buffer-ctor/tree/umd
 
 <!-- <related-links> -->
 
-[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor
+[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor/tree/umd
 
 <!-- </related-links> -->
 
