@@ -60,7 +60,7 @@
     "@stdlib/ndarray-base-strides2offset": "^0.0.x",
     "@stdlib/ndarray-base-strides2order": "^0.0.x",
     "@stdlib/ndarray-ctor": "^0.0.x",
-    "@stdlib/string-format": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x",
     "@stdlib/types": "^0.0.x",
     "@stdlib/utils-flatten-array": "^0.0.x"
   },
