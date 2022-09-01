@@ -18,7 +18,7 @@
 
 // TypeScript Version: 2.0
 
-/// <reference types="@stdlib/types"/>
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
 import { ArrayLike } from '@stdlib/types/array';
 import { DataType, ndarray, Mode, Order, Shape } from '@stdlib/types/ndarray';
