@@ -61,7 +61,7 @@
     "@stdlib/ndarray-base-strides2order": "^0.0.6",
     "@stdlib/ndarray-ctor": "^0.0.10",
     "@stdlib/ndarray-defaults": "github:stdlib-js/ndarray-defaults#main",
-    "@stdlib/string-format": "^0.0.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2",
     "@stdlib/types": "^0.0.14",
     "@stdlib/utils-flatten-array": "^0.0.7"
   },
