@@ -37,6 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/array-base-flatten": "github:stdlib-js/array-base-flatten#main",
     "@stdlib/array-shape": "^0.0.6",
     "@stdlib/assert-has-own-property": "^0.0.7",
     "@stdlib/assert-is-array": "^0.0.7",
@@ -62,8 +63,7 @@
     "@stdlib/ndarray-ctor": "^0.0.10",
     "@stdlib/ndarray-defaults": "github:stdlib-js/ndarray-defaults#main",
     "@stdlib/string-format": "^0.0.3",
-    "@stdlib/types": "^0.0.14",
-    "@stdlib/utils-flatten-array": "^0.0.7"
+    "@stdlib/types": "^0.0.14"
   },
   "devDependencies": {
     "@stdlib/array-float32": "^0.0.6",
