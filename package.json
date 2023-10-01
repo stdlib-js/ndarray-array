@@ -53,7 +53,7 @@
     "@stdlib/ndarray-base-assert-is-casting-mode": "^0.1.0",
     "@stdlib/ndarray-base-assert-is-data-type": "^0.1.0",
     "@stdlib/ndarray-base-assert-is-order": "^0.1.0",
-    "@stdlib/ndarray-base-buffer": "^0.1.0",
+    "@stdlib/ndarray-base-buffer": "^0.1.1",
     "@stdlib/ndarray-base-buffer-ctors": "^0.1.0",
     "@stdlib/ndarray-base-buffer-dtype": "^0.1.0",
     "@stdlib/ndarray-base-numel": "^0.1.0",
