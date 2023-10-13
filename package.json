@@ -68,7 +68,7 @@
     "@stdlib/ndarray-order": "github:stdlib-js/ndarray-order#main",
     "@stdlib/ndarray-shape": "github:stdlib-js/ndarray-shape#main",
     "@stdlib/ndarray-strides": "github:stdlib-js/ndarray-strides#main",
-    "@stdlib/string-format": "^0.1.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1",
     "@stdlib/types": "^0.1.0"
   },
   "devDependencies": {
