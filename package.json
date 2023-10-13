@@ -48,7 +48,7 @@
     "@stdlib/buffer-alloc-unsafe": "^0.1.0",
     "@stdlib/constants-float64-pinf": "^0.1.1",
     "@stdlib/math-base-assert-is-integer": "^0.1.1",
-    "@stdlib/math-base-special-abs": "^0.1.0",
+    "@stdlib/math-base-special-abs": "^0.1.1",
     "@stdlib/ndarray-base-assert-is-allowed-data-type-cast": "^0.1.0",
     "@stdlib/ndarray-base-assert-is-casting-mode": "^0.1.1",
     "@stdlib/ndarray-base-assert-is-data-type": "^0.1.0",
@@ -59,7 +59,7 @@
     "@stdlib/ndarray-base-numel": "^0.1.1",
     "@stdlib/ndarray-base-shape2strides": "^0.1.1",
     "@stdlib/ndarray-base-strides2offset": "^0.1.1",
-    "@stdlib/ndarray-base-strides2order": "^0.1.0",
+    "@stdlib/ndarray-base-strides2order": "^0.1.1",
     "@stdlib/ndarray-ctor": "^0.1.0",
     "@stdlib/ndarray-data-buffer": "github:stdlib-js/ndarray-data-buffer#main",
     "@stdlib/ndarray-defaults": "^0.1.1",
@@ -106,7 +106,8 @@
     "multidimensional",
     "dimensions",
     "dims",
-    "numpy.array"
+    "numpy.array",
+    "numpy.asarray"
   ],
   "__stdlib__": {},
   "funding": {
