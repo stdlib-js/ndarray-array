@@ -37,6 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/array-base-arraylike2object": "^0.1.0",
     "@stdlib/array-base-flatten": "^0.1.0",
     "@stdlib/array-shape": "^0.1.0",
     "@stdlib/assert-has-own-property": "^0.1.1",
@@ -46,6 +47,8 @@
     "@stdlib/assert-is-nonnegative-integer": "^0.1.0",
     "@stdlib/assert-is-plain-object": "^0.1.1",
     "@stdlib/buffer-alloc-unsafe": "^0.1.0",
+    "@stdlib/complex-base-cast-return": "^0.1.0",
+    "@stdlib/complex-ctors": "^0.1.1",
     "@stdlib/constants-float64-pinf": "^0.1.1",
     "@stdlib/math-base-assert-is-integer": "^0.1.1",
     "@stdlib/math-base-special-abs": "^0.1.1",
@@ -56,6 +59,7 @@
     "@stdlib/ndarray-base-buffer": "^0.1.1",
     "@stdlib/ndarray-base-buffer-ctors": "^0.1.0",
     "@stdlib/ndarray-base-buffer-dtype": "^0.1.0",
+    "@stdlib/ndarray-base-ctor": "^0.1.0",
     "@stdlib/ndarray-base-numel": "^0.1.1",
     "@stdlib/ndarray-base-shape2strides": "^0.1.1",
     "@stdlib/ndarray-base-strides2offset": "^0.1.1",
