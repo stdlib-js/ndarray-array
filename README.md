@@ -45,14 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-array
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
+var array = require( '@stdlib/ndarray-array' );
 ```
 
 <a name="main"></a>
@@ -72,8 +88,8 @@ To initialize multidimensional array data, provide a `buffer` argument, which ma
 <!-- eslint-disable object-curly-spacing, object-curly-newline -->
 
 ```javascript
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import allocUnsafe from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-alloc-unsafe@esm/index.mjs';
+var Float64Array = require( '@stdlib/array-float64' );
+var allocUnsafe = require( '@stdlib/buffer-alloc-unsafe' );
 
 // Create an ndarray from a generic array linear data buffer:
 var arr = array( [ 1.0, 2.0, 3.0, 4.0 ], { 'shape': [ 2, 2 ] } );
@@ -129,6 +145,7 @@ The function accepts the following `options`:
 -   **mode**: specifies how to handle indices which exceed array dimensions.
 
     -   `throw`: specifies that an [`ndarray`][@stdlib/ndarray/ctor] instance should throw an error when an index exceeds array dimensions.
+    -   `normalize`: specifies that an [`ndarray`][@stdlib/ndarray/ctor] instance should normalize negative indices and throw an error when an index exceeds array dimensions.
     -   `wrap`: specifies that an [`ndarray`][@stdlib/ndarray/ctor] instance should wrap around an index exceeding array dimensions using modulo arithmetic.
     -   `clamp`: specifies that an [`ndarray`][@stdlib/ndarray/ctor] instance should set an index exceeding array dimensions to either `0` (minimum index) or the maximum index.
 
@@ -220,13 +237,8 @@ var bool = ( v === buf[ 0 ] );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
+```javascript
+var array = require( '@stdlib/ndarray-array' );
 
 // Create a 4-dimensional array containing single-precision floating-point numbers:
 var arr = array({
@@ -252,10 +264,6 @@ var str = arr.toString();
 // Serialize the array as JSON:
 str = JSON.stringify( arr.toJSON() );
 // e.g., returns '{"type":"ndarray","dtype":"float32","flags":{},"order":"row-major","shape":[3,3,3,3],"strides":[27,9,3,1],"data":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -293,7 +301,7 @@ str = JSON.stringify( arr.toJSON() );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -310,7 +318,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -353,17 +361,17 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-array/main/LICENSE
 
-[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/ndarray-dtypes/tree/esm
+[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/ndarray-dtypes
 
-[@stdlib/array/generic]: https://github.com/stdlib-js/array-generic/tree/esm
+[@stdlib/array/generic]: https://github.com/stdlib-js/array-generic
 
-[@stdlib/array/typed]: https://github.com/stdlib-js/array-typed/tree/esm
+[@stdlib/array/typed]: https://github.com/stdlib-js/array-typed
 
-[@stdlib/buffer/ctor]: https://github.com/stdlib-js/buffer-ctor/tree/esm
+[@stdlib/buffer/ctor]: https://github.com/stdlib-js/buffer-ctor
 
 <!-- <related-links> -->
 
-[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor/tree/esm
+[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor
 
 <!-- </related-links> -->
 
