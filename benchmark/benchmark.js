@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var Float32Array = require( '@stdlib/array-float32' );
 var isndarrayLike = require( '@stdlib/assert-is-ndarray-like' );
 var pkg = require( './../package.json' ).name;
