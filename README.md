@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-array/tags). For example,
+
+```javascript
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@v0.2.0-esm/index.mjs';
 ```
 
@@ -227,7 +232,7 @@ var bool = ( v === buf[ 0 ] );
 <body>
 <script type="module">
 
-import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@v0.2.0-esm/index.mjs';
+import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
 
 // Create a 4-dimensional array containing single-precision floating-point numbers:
 var arr = array({
