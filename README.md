@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-array/tags). For example,
+
+```javascript
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@v0.2.1-deno/mod.js';
 ```
 
@@ -222,7 +227,7 @@ var bool = ( v === buf[ 0 ] );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@v0.2.1-deno/mod.js';
+import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.js';
 
 // Create a 4-dimensional array containing single-precision floating-point numbers:
 var arr = array({
