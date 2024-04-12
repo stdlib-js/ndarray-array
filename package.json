@@ -3,31 +3,7 @@
   "version": "0.2.1",
   "description": "Multidimensional arrays.",
   "license": "Apache-2.0",
-  "author": {
-    "name": "The Stdlib Authors",
-    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
-  },
-  "contributors": [
-    {
-      "name": "The Stdlib Authors",
-      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
-    }
-  ],
-  "main": "./lib",
-  "directories": {
-    "benchmark": "./benchmark",
-    "doc": "./docs",
-    "example": "./examples",
-    "lib": "./lib",
-    "test": "./test"
-  },
-  "types": "./docs/types",
-  "scripts": {
-    "test": "make test",
-    "test-cov": "make test-cov",
-    "examples": "make examples",
-    "benchmark": "make benchmark"
-  },
+  "main": "./index.js",
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -36,68 +12,6 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
-  "dependencies": {
-    "@stdlib/array-base-arraylike2object": "^0.2.1",
-    "@stdlib/array-base-flatten": "^0.2.1",
-    "@stdlib/array-shape": "^0.2.1",
-    "@stdlib/assert-has-own-property": "^0.2.1",
-    "@stdlib/assert-is-array": "^0.2.1",
-    "@stdlib/assert-is-boolean": "^0.2.1",
-    "@stdlib/assert-is-ndarray-like": "^0.2.1",
-    "@stdlib/assert-is-nonnegative-integer": "^0.2.1",
-    "@stdlib/assert-is-plain-object": "^0.2.1",
-    "@stdlib/buffer-alloc-unsafe": "^0.2.1",
-    "@stdlib/complex-base-cast-return": "^0.2.1",
-    "@stdlib/complex-ctors": "^0.2.1",
-    "@stdlib/constants-float64-pinf": "^0.2.1",
-    "@stdlib/math-base-assert-is-integer": "^0.2.4",
-    "@stdlib/math-base-special-abs": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-allowed-data-type-cast": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-casting-mode": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-data-type": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-order": "^0.2.1",
-    "@stdlib/ndarray-base-buffer": "^0.2.1",
-    "@stdlib/ndarray-base-buffer-ctors": "^0.2.1",
-    "@stdlib/ndarray-base-buffer-dtype": "^0.2.1",
-    "@stdlib/ndarray-base-ctor": "^0.2.1",
-    "@stdlib/ndarray-base-numel": "^0.2.1",
-    "@stdlib/ndarray-base-shape2strides": "^0.2.1",
-    "@stdlib/ndarray-base-strides2offset": "^0.2.1",
-    "@stdlib/ndarray-base-strides2order": "^0.2.1",
-    "@stdlib/ndarray-ctor": "^0.2.1",
-    "@stdlib/ndarray-data-buffer": "^0.2.1",
-    "@stdlib/ndarray-defaults": "^0.2.1",
-    "@stdlib/ndarray-dtype": "^0.2.1",
-    "@stdlib/ndarray-offset": "^0.2.1",
-    "@stdlib/ndarray-order": "^0.2.1",
-    "@stdlib/ndarray-shape": "^0.2.1",
-    "@stdlib/ndarray-strides": "^0.2.1",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.1",
-    "@stdlib/types": "^0.3.2",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
-  },
-  "devDependencies": {
-    "@stdlib/array-float32": "^0.2.1",
-    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
-    "istanbul": "^0.4.1",
-    "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.1"
-  },
-  "engines": {
-    "node": ">=0.10.0",
-    "npm": ">2.7.0"
-  },
-  "os": [
-    "aix",
-    "darwin",
-    "freebsd",
-    "linux",
-    "macos",
-    "openbsd",
-    "sunos",
-    "win32",
-    "windows"
-  ],
   "keywords": [
     "stdlib",
     "stdtypes",
@@ -114,7 +28,6 @@
     "numpy.array",
     "numpy.asarray"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
