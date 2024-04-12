@@ -50,7 +50,7 @@
     "@stdlib/complex-base-cast-return": "^0.2.1",
     "@stdlib/complex-ctors": "^0.2.1",
     "@stdlib/constants-float64-pinf": "^0.2.1",
-    "@stdlib/math-base-assert-is-integer": "^0.2.3",
+    "@stdlib/math-base-assert-is-integer": "^0.2.4",
     "@stdlib/math-base-special-abs": "^0.2.1",
     "@stdlib/ndarray-base-assert-is-allowed-data-type-cast": "^0.2.1",
     "@stdlib/ndarray-base-assert-is-casting-mode": "^0.2.1",
