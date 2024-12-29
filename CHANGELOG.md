@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-24)
+## Unreleased (2024-12-29)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`be3e0b9`](https://github.com/stdlib-js/stdlib/commit/be3e0b984eb981caa758172dc7179cbd6a118a2e) - treat generic accessor arrays similar to built-in generic arrays
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`be3e0b9`](https://github.com/stdlib-js/stdlib/commit/be3e0b984eb981caa758172dc7179cbd6a118a2e) - **fix:** treat generic accessor arrays similar to built-in generic arrays _(by Athan Reines)_
 -   [`4a70790`](https://github.com/stdlib-js/stdlib/commit/4a707903dfef7c2b56216000165706497d19a251) - **style:** add missing spaces _(by Philipp Burckhardt)_
 
 </details>
@@ -24,8 +35,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Philipp Burckhardt
 
 </section>
