@@ -56,6 +56,7 @@
     "@stdlib/ndarray-base-assert-is-casting-mode": "^0.2.2",
     "@stdlib/ndarray-base-assert-is-data-type": "^0.2.2",
     "@stdlib/ndarray-base-assert-is-order": "^0.2.2",
+    "@stdlib/ndarray-base-assert-is-row-major-string": "github:stdlib-js/ndarray-base-assert-is-row-major-string#main",
     "@stdlib/ndarray-base-buffer": "^0.3.0",
     "@stdlib/ndarray-base-buffer-ctors": "^0.3.0",
     "@stdlib/ndarray-base-buffer-dtype": "^0.3.0",
