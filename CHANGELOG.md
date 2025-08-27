@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-12)
+## Unreleased (2025-08-27)
 
 <section class="bug-fixes">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`c4cc264`](https://github.com/stdlib-js/stdlib/commit/c4cc264996ce9f4241476c857c4c985fb6612c84) - **docs:** update markup _(by Athan Reines)_
 -   [`77867ac`](https://github.com/stdlib-js/stdlib/commit/77867ac1767a186023f633dea30ddf860962aaed) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
 -   [`ed2d89f`](https://github.com/stdlib-js/stdlib/commit/ed2d89f2c0c0950bfb6fad6375296173a7aee0b9) - **refactor:** use base assertion utility _(by Athan Reines)_
 -   [`b9d3f03`](https://github.com/stdlib-js/stdlib/commit/b9d3f03a8fc45fa0f65dc1ded1a5b40125a0a0fb) - **refactor:** use base assertion utility _(by Athan Reines)_
