@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-18)
+## Unreleased (2025-09-19)
 
 <section class="bug-fixes">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`29bbe63`](https://github.com/stdlib-js/stdlib/commit/29bbe6352ed375283da50d7363cc537b72736765) - **refactor:** allow non-string dtypes and delegate to `ndarray/base/assign` for copying ndarray views _(by Athan Reines)_
 -   [`ab2e77b`](https://github.com/stdlib-js/stdlib/commit/ab2e77bb82f0c6e7854e3279429a1ec8c6ff5603) - **docs:** update type _(by Athan Reines)_
 -   [`c4cc264`](https://github.com/stdlib-js/stdlib/commit/c4cc264996ce9f4241476c857c4c985fb6612c84) - **docs:** update markup _(by Athan Reines)_
 -   [`77867ac`](https://github.com/stdlib-js/stdlib/commit/77867ac1767a186023f633dea30ddf860962aaed) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
