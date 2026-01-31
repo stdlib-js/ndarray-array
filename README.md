@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
+import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@v0.2.2-esm/index.mjs';
 ```
 
 <a name="main"></a>
@@ -227,7 +227,7 @@ var bool = ( v === buf[ 0 ] );
 <body>
 <script type="module">
 
-import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
+import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@v0.2.2-esm/index.mjs';
 
 // Create a 4-dimensional array containing single-precision floating-point numbers:
 var arr = array({
