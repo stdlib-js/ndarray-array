@@ -108,6 +108,7 @@
     "data",
     "structure",
     "array",
+    "ndarray",
     "typed",
     "typed array",
     "typed-array",
